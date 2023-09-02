@@ -37,6 +37,10 @@ def terms_of_use():
 def privacy_policy():
     return render_template('privacy-policy.html')
 
+@app.route('/get-electric/get-sms',methods=['GET'])
+def get_sms():
+    return "123456"
+
 
 if __name__ == '__main__':
     app.run(debug=True)
