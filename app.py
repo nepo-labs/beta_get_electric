@@ -39,7 +39,7 @@ def privacy_policy():
 
 @app.route('/get-electric/get-sms',methods=['GET'])
 def get_sms():
-    return "579726"
+    return "try again geting sms"
 
 
 if __name__ == '__main__':
